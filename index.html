@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album de fotos</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    
+
+    <!-------------------------------------------------HEADER--------------------------------------------------->
+    <header>
+        
+        <!-- ESTO ES LO QUE SE DESPLAZARA CUANDO SE TOQUE EL BOTON DE LAS 3 RALLAS -->
+        <div class="bg-dark collapse" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-8 py-4">
+
+                        <!-- ENCABEZADO -->
+                        <h4 class="text-white">Acerca de </h4>
+                        <!-- INFORMACION -->
+                        <p class="text-white" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+                        quod? Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet
+                        consectetur adipisicing elit. Accusantium, itaque! Lorem ipsum dolor sit amet.</p>
+                    </div>
+
+                    <!-- CONTACTOS -->
+                    <div class="col-12 col-sm-4 py-4">
+
+                    <!-- ENCABEZADO -->
+                    <h4 class="text-white">Contacto </h4>
+                    <!-- LISTA DE ENLACES -->
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Siguenos en instagram</a></li>
+                        <li><a href="#" class="text-white">Siguenos en Facebook</a></li>
+                        <li><a href="#" class="text-white">Siguenos en X</a></li>
+                    </ul>
+
+                    </div> <!--FIN DIV-->
+                </div> <!--FIN ROW-->
+            </div> <!--FIN CONTAINER-->
+        </div> <!--FIN DIV-->
+
+     <!-------------------------------------------------------------------------------------------------- -->
+        
+        <div class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+
+                    <!-- ICONO DE LA CAMARA -->
+                    <svg  class="me-3" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                        <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                        <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                    </svg>
+                    <strong>Album</strong>
+                </a>
+
+                <!-- BOTON DE ENLACES -->
+                <button
+
+                    class="navbar-toggler collapsed" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader"
+                    aria-expanded="false"
+                    aria-label="Alternar Navegacion"
+                    >
+                <!-- CON ESTE SPAN SE PONEN LAS RALLAS PARA EL BOTON -->
+                        <span class="navbar-toggler-icon"></span>
+                </button> <!--FIN button-->
+            
+            </div> <!--FIN CONTAINER-->
+            
+        </div> <!--FIN NAVBAR-->
+
+    </header> <!--FIN HEADER-->
+
+    
+    <!--------------------------------------------------MAIN---------------------------------------------------->
+
+    <main>
+        <section class="py-5 bg-white text-center mb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-4"> Anime Album</h1>
+                        <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nobis explicabo adipisci,
+                        debitis dicta soluta minima facere iusto voluptas officiis mollitia ut ipsa expedita voluptates
+                        sint eius commodi quos. Nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, voluptas.</p>
+
+                        <p>
+                            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                            <a href="#" class="btn btn-secondary my-2">Secondary call to action</a>
+                        </p>
+
+                    </div> <!--fin col-->
+                </div> <!--fin row-->
+            </div> <!--fin container-->
+        </section> <!--FIN SECTION-->
+
+
+        <div class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+
+                            <!-- CARD 1 -->
+                            <div class="card mb-4" >
+                                <img src="img/1.jpg" alt="" class="card-img-top"  >
+
+                            <!-- CUERPO DEL CARD -->
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                                <!-- BOTONES -->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+        
+                                    </div>
+                                    <small >9 Minutes</small>
+        
+                                </div>
+
+                            </div> <!--FIN CARD-BODY-->
+
+
+                        </div> <!--FIN DIV-->
+
+                    </div> <!--FIN DIV-->
+
+
+                    <!---------CARD 2---------------------------------------------------------------------------------------------------------------- -->
+
+
+                    <div class="col-12 col-sm-6 col-md-4">
+
+                        <!-- CARD 2 -->
+                        <div class="card mb-4">
+                            <img src="img/2.jpg" alt="" class="card-img-top"  >
+
+                        <!-- CUERPO DEL CARD -->
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                            <!-- BOTONES -->
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+    
+                                </div>
+                                <small >9 Minutes</small>
+    
+                            </div>
+
+                        </div> <!--FIN CARD-BODY-->
+
+
+                    </div> <!--FIN DIV-->
+
+                </div> <!--FIN DIV-->
+
+
+                <!---------CARD 3---------------------------------------------------------------------------------------------------------------- -->
+
+
+                <div class="col-12 col-sm-6 col-md-4">
+
+                    <!-- CARD 3 -->
+                    <div class="card mb-4">
+                        <img src="img/3.jpg" alt="" class="card-img-top" >
+
+                    <!-- CUERPO DEL CARD -->
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                        <!-- BOTONES -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+
+                            </div>
+                            <small >9 Minutes</small>
+
+                        </div>
+
+                    </div> <!--FIN CARD-BODY-->
+
+
+                </div> <!--FIN DIV-->
+
+            </div> <!--FIN DIV-->
+
+
+
+            <!---------CARD 4---------------------------------------------------------------------------------------------------------------- -->
+
+
+            <div class="col-12 col-sm-6 col-md-4">
+
+                <!-- CARD 4 -->
+                <div class="card mb-4">
+                    <img src="img/4.jpg" alt="" class="card-img-top" >
+
+                <!-- CUERPO DEL CARD -->
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                    <!-- BOTONES -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+
+                        </div>
+                        <small >9 Minutes</small>
+
+                    </div>
+
+                </div> <!--FIN CARD-BODY-->
+
+
+            </div> <!--FIN DIV-->
+
+        </div> <!--FIN DIV-->
+
+
+        <!---------CARD 5---------------------------------------------------------------------------------------------------------------- -->
+
+
+            <div class="col-12 col-sm-6 col-md-4">
+
+                <!-- CARD 5 -->
+                <div class="card mb-4">
+                    <img src="img/5.jpg" alt="" class="card-img-top" >
+
+                <!-- CUERPO DEL CARD -->
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                    <!-- BOTONES -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+
+                        </div>
+                        <small >9 Minutes</small>
+
+                    </div>
+
+                </div> <!--FIN CARD-BODY-->
+
+
+            </div> <!--FIN DIV-->
+
+        </div> <!--FIN DIV-->
+
+
+        <!---------CARD 6---------------------------------------------------------------------------------------------------------------- -->
+
+
+        <div class="col-12 col-sm-6 col-md-4">
+
+            <!-- CARD 6 -->
+            <div class="card mb-4">
+                <img src="img/6.jpg" alt="" class="card-img-top" >
+
+            <!-- CUERPO DEL CARD -->
+            <div class="card-body">
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, sit?</p>
+
+                <!-- BOTONES -->
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+
+                    </div>
+                    <small >9 Minutes</small>
+
+                </div>
+
+            </div> <!--FIN CARD-BODY-->
+
+
+        </div> <!--FIN DIV-->
+
+    </div> <!--FIN DIV-->
+
+
+
+
+                </div> <!--FIN ROW-->
+            </div> <!--FIN CONTAINER-->
+        </div> <!--FIN DIV-->
+    </main> <!--FIN MAIN-->
+
+
+    <!--------------------------------------------------FOOTER---------------------------------------------------->
+
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-between">
+                   
+                    <!-- INFORMACION -->
+                    <div>
+
+                        <p class="mb-1">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, iure.
+                        </p>
+
+                        <p class="mb-1">
+                            Creado por Raldy Lopez - 2023
+                        </p>
+
+                    </div>
+
+                    <!-- ENLACE PARA IR ARRIBA -->
+                    <p>
+                        <a href="#" >Go up</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
